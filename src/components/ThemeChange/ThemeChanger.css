@@ -1,0 +1,68 @@
+/* ThemeChanger.css */
+
+.theme-changer {
+    margin-top: 130px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .theme-changer.open {
+    transform: translateX(-100px);
+    margin-top: 130px;
+  }
+  
+  .toggle-icon {
+    font-size: 20px;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transform: translateX(200px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu button {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .bars-theme{
+    display: flex;
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+.sidebar-theme{
+    margin-top: 10px;
+    background: rgb(250, 192, 192);
+    color: #d3d3d3;
+    height: 200px;
+    width: 200px;
+    transition: all 0.5s;
+    opacity: 0.5;
+}
+
+.underline-theme{
+    width: 40rem;
+    height: 0.9px;
+    background: gray;
+    border-radius: 9px;
+    opacity: 50%;
+}

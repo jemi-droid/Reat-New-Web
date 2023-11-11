@@ -1,0 +1,66 @@
+/* styles.css */
+
+  body.light-mode {
+    background-color: #fdfbfb;
+    color: #0f0f0f;
+    transition: background-color 0.3s ease;
+  }
+  body.dark-mode {
+    background-color: #2e2929;
+    color: #ffffff;
+    
+  }
+  .light-mode .link{
+    color: #010101;
+  }
+ .dark-mode .link{
+    color: #d5caca;
+ }
+  
+ .light-mode .dashboard-sec{
+    color: #dddbdb
+ }
+
+ .dark-mode .dashboard-sec{
+  color: #0f0f0f
+ }
+
+ .light-mode .heading{
+  color: #0f0f0f
+}
+
+.dark-mode .heading{
+color: #cfcdcd 
+}
+
+.light-mode .headerNav{
+  color: #0f0f0f
+}
+
+.dark-mode .headerNav{
+color: #cfcdcd 
+}
+
+.light-mode .item-col-3{
+  background-color: #fcf8f8
+}
+
+.dark-mode .item-col-3{
+background-color: #302f2f
+}
+
+.light-mode .navbar-collapse{
+  background-color: #fcf8f8
+}
+
+.dark-mode .navbar-collapse{
+background-color: #302f2f
+}
+
+.light-mode .sidebar{
+  background-color: #fcf8f8
+}
+
+.dark-mode .sidebar{
+background-color: #302f2f
+}
